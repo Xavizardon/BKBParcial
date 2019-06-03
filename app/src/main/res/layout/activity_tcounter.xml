@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		tools:context=".TCounterActivity"
+		android:orientation="vertical"
+		>
+	
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1"
+			>
+		<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:orientation="vertical"
+				android:layout_gravity="center"
+				android:gravity="center">
+			
+			<TextView
+					android:id="@+id/tv_muestra_teamA"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/tv_equipo_a"
+					android:layout_marginVertical="@dimen/big_pad"
+					android:textSize="@dimen/big_text"
+					/>
+			
+			<TextView
+					android:id="@+id/tv_teamA_score"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/tv_counter_default"
+					android:layout_marginBottom="@dimen/medium_padd"
+					android:textSize="64sp"
+					/>
+			
+			<Button
+					android:id="@+id/btn_plus3A"
+					android:layout_width="match_parent"
+					android:layout_height="@dimen/btn_score_size"
+					android:text="@string/_plus3"
+					android:layout_margin="@dimen/medium_padd"
+					/>
+			
+			<Button
+					android:id="@+id/btn_plus2A"
+					android:layout_width="match_parent"
+					android:layout_height="@dimen/btn_score_size"
+					android:text="@string/_plus2"
+					android:layout_margin="@dimen/medium_padd"
+					/>
+			
+			<Button
+					android:id="@+id/btn_FreeThrowA"
+					android:layout_width="match_parent"
+					android:layout_height="@dimen/btn_score_size"
+					android:text="@string/btn_freethrow"
+					android:layout_margin="@dimen/medium_padd"
+					/>
+		
+		</LinearLayout>
+		
+		<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:orientation="vertical"
+				android:layout_gravity="center"
+				android:gravity="center">
+			
+			<TextView
+					android:id="@+id/tv_muestra_teamB"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/tv_equipo_b"
+					android:layout_marginVertical="@dimen/big_pad"
+					android:textSize="@dimen/big_text"
+					/>
+			
+			<TextView
+					android:id="@+id/tv_teamB_score"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/tv_counter_default"
+					android:layout_marginBottom="@dimen/medium_padd"
+					android:textSize="64sp"
+					/>
+			
+			<Button
+					android:id="@+id/btn_plus3B"
+					android:layout_width="match_parent"
+					android:layout_height="@dimen/btn_score_size"
+					android:text="@string/_plus3"
+					android:layout_margin="@dimen/medium_padd"
+					/>
+			
+			<Button
+					android:id="@+id/btn_plus2B"
+					android:layout_width="match_parent"
+					android:layout_height="@dimen/btn_score_size"
+					android:text="@string/_plus2"
+					android:layout_margin="@dimen/medium_padd"
+					/>
+			
+			<Button
+					android:id="@+id/btn_FreeThrowB"
+					android:layout_width="match_parent"
+					android:layout_height="@dimen/btn_score_size"
+					android:text="@string/btn_freethrow"
+					android:layout_margin="@dimen/medium_padd"
+					/>
+		
+		</LinearLayout>
+		
+	</LinearLayout>
+	
+	<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:layout_marginBottom="@dimen/medium_padd"
+			>
+		<Button
+				android:id="@+id/btn_Finish"
+				android:layout_width="@dimen/btn_hori_finish"
+				android:layout_height="@dimen/btn_score_size"
+				android:layout_marginVertical="@dimen/medium_padd"
+				android:text="@string/btn_fin_de_partido"
+				/>
+		
+	</LinearLayout>
+
+</LinearLayout>
