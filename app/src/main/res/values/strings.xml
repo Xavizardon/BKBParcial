@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">BKBParcial</string>
 	<string name="tv_bkb_counter">BKB COUNTER</string>
+	<string name="hint_ingrese_nombre">Ingrese nombre</string>
+	<string name="tv_equipo_b">Equipo B</string>
+	<string name="tv_equipo_a">Equipo A</string>
+	<string name="btn_ver_scores_anteriores">VER SCORES ANTERIORES</string>
+	<string name="btn_start">START</string>
 </resources>

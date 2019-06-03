@@ -2,16 +2,17 @@
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        tools:context=".MainActivity"
+        android:orientation="vertical">
 
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_margin="@dimen/medium_padd">
         <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -25,16 +26,92 @@
         
         <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
+                android:layout_height="@dimen/weight_dps"
+                android:layout_weight="1"
                 android:orientation="horizontal">
-            <TextView
-                    android:layout_width=""
-                    android:layout_height=""
+            
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="@dimen/medium_padd"
+                    >
+                <TextView
+                        android:layout_marginVertical="@dimen/medium_padd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_equipo_a"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/medium_text"
+                        />
+                
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_ingrese_nombre"
+                        />
+                
+            </LinearLayout>
+    
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="@dimen/medium_padd"
+                    >
+                <TextView
+                        android:layout_marginVertical="@dimen/medium_padd"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_equipo_b"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:textSize="@dimen/medium_text"
+                        />
+        
+                <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_ingrese_nombre"
+                        />
+    
+            </LinearLayout>
+            
+        </LinearLayout>
+        
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                >
+            
+            <Button
+                    android:layout_width="@dimen/medium_btn"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btn_start"
+                    android:layout_margin="@dimen/big_pad"
                     />
             
         </LinearLayout>
         
         
+        
+    </LinearLayout>
+    
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/medium_padd"
+            android:layout_marginVertical="@dimen/medium_padd"
+            >
+        <Button
+                android:layout_height="wrap_content"
+                android:layout_width="@dimen/weight_dps"
+                android:layout_weight="1"
+                android:text="@string/btn_ver_scores_anteriores"/>
         
     </LinearLayout>
 

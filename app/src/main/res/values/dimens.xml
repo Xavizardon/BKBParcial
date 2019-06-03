@@ -3,4 +3,7 @@
 	<dimen name="big_text">32sp</dimen>
 	<dimen name="big_pad">48dp</dimen>
 	<dimen name="medium_padd">24dp</dimen>
+	<dimen name="weight_dps">0dp</dimen>
+	<dimen name="medium_text">24sp</dimen>
+	<dimen name="medium_btn">180dp</dimen>
 </resources>
