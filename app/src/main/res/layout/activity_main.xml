@@ -44,10 +44,12 @@
                         android:text="@string/tv_equipo_a"
                         android:textStyle="bold"
                         android:layout_gravity="center"
-                        android:textSize="@dimen/medium_text"
+                        android:textSize="@dimen/big_text"
+                        android:textColor="@color/Blue"
                         />
                 
                 <EditText
+                        android:id="@+id/et_name_equipoA"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/hint_ingrese_nombre"
@@ -69,10 +71,12 @@
                         android:text="@string/tv_equipo_b"
                         android:textStyle="bold"
                         android:layout_gravity="center"
-                        android:textSize="@dimen/medium_text"
+                        android:textSize="@dimen/big_text"
+                        android:textColor="@color/Red"
                         />
         
                 <EditText
+                        android:id="@+id/et_name_equipoB"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/hint_ingrese_nombre"
@@ -89,8 +93,9 @@
                 >
             
             <Button
+                    android:id="@+id/btn_Start"
                     android:layout_width="@dimen/medium_btn"
-                    android:layout_height="wrap_content"
+                    android:layout_height="@dimen/btn_score_size"
                     android:text="@string/btn_start"
                     android:layout_margin="@dimen/big_pad"
                     />
@@ -108,7 +113,8 @@
             android:layout_marginVertical="@dimen/medium_padd"
             >
         <Button
-                android:layout_height="wrap_content"
+                android:id="@+id/btn_show_scores"
+                android:layout_height="@dimen/btn_score_size"
                 android:layout_width="@dimen/weight_dps"
                 android:layout_weight="1"
                 android:text="@string/btn_ver_scores_anteriores"/>

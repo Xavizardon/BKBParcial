@@ -19,7 +19,8 @@
 				android:layout_weight="1"
 				android:orientation="vertical"
 				android:layout_gravity="center"
-				android:gravity="center">
+				android:gravity="center"
+				android:background="@color/SBlue">
 			
 			<TextView
 					android:id="@+id/tv_muestra_teamA"
@@ -71,7 +72,8 @@
 				android:layout_weight="1"
 				android:orientation="vertical"
 				android:layout_gravity="center"
-				android:gravity="center">
+				android:gravity="center"
+				android:background="@color/SRed">
 			
 			<TextView
 					android:id="@+id/tv_muestra_teamB"
